@@ -25,6 +25,16 @@ h1 {
 #menu {
     font-size: 150%;
     letter-spacing: 3px;
+    color: black;
+}
+
+#menu a {
+color: inherit;
+text-decoration: none;
+}
+
+#menu a:hover {
+border-bottom: 1px solid green;
 }
 
 nav {
