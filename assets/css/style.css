@@ -12,6 +12,11 @@ body {
     font-weight: 300;
 }
 
+#background-color {
+    background-color: rgb(251, 250, 242)
+    ;
+}
+
 /*style for header and nav bar*/
 h1 {
     text-transform: uppercase;
