@@ -11,3 +11,27 @@ body {
     font-family: 'Urbanist', sans-serif;
     font-weight: 300;
 }
+
+h1 {
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 300%;
+}
+
+#menu {
+    font-size: 150%;
+    letter-spacing: 3px;
+}
+
+nav {
+    display: block;
+    text-align: center;
+}
+
+nav li {
+    display:inline-block;
+    padding: 30px;
+}
