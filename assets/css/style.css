@@ -72,3 +72,15 @@ nav li {
     text-align: center;
     color: white;
 }
+
+#picture-table {
+    border-spacing: 0ch;
+}
+
+
+
+table tr td img {
+    width: 400px;
+    height: 400px;
+    display: block;
+}
