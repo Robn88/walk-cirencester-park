@@ -45,3 +45,15 @@ nav li {
     height: 600px;
     background-size:cover;
 }
+
+#cover-text {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    width: 400px;
+    height: 175px;
+    background-color: rgba(87, 100, 38, 0.54) ;
+    font-size: 200%;
+    text-align: center;
+    color: white;
+}
