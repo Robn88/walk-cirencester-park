@@ -112,3 +112,25 @@ table tr td img {
     height: 350px;
     display: block;
 }
+
+/*footer and social media links */
+footer {
+    background-color:rgba(87, 100, 38, 0.54) ;
+    width: auto;
+    height: 100px; 
+}
+
+footer >ul li {
+    display: inline;
+}
+
+.social-network-links {
+    text-align: center;
+}
+
+.social-network-links i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
