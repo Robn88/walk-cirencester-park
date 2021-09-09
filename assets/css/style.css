@@ -84,19 +84,27 @@ nav li {
 
 table {
     border-spacing: 0ch;
+    padding: 20px;
 }
 
-#picture-table-right {
+.picture-table {
       margin-left: auto;
       margin-right: auto;
     }
 
 .table-text {
     font-family: 'Montserrat', sans-serif;
-    text-align: left;
     font-size: 200%;
     height: 300px;
     width: 300px;
+}
+
+#table-text-left {
+    text-align: left;
+}
+
+#table-text-right {
+    text-align: right;
 }
 
 table tr td img {
