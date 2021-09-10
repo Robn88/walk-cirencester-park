@@ -142,3 +142,14 @@ footer >ul li {
     height: 400px;
     background-size: cover;
 }
+
+#subheading {
+    text-align: center;
+    font-size: 250%;
+    margin: 1%;
+}
+
+#walk-description-subheading {
+    font-style: italic;
+    margin-left: 10px;
+}
