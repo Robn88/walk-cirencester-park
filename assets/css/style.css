@@ -88,9 +88,9 @@ table {
 }
 
 .picture-table {
-      margin-left: auto;
-      margin-right: auto;
-    }
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .table-text {
     font-family: 'Montserrat', sans-serif;
@@ -115,12 +115,12 @@ table tr td img {
 
 /*footer and social media links */
 footer {
-    background-color:rgba(87, 100, 38, 0.54) ;
+    background-color: rgba(87, 100, 38, 0.54);
     width: auto;
-    height: 100px; 
+    height: 100px;
 }
 
-footer >ul li {
+footer>ul li {
     display: inline;
 }
 
@@ -143,6 +143,8 @@ footer >ul li {
     background-size: cover;
 }
 
+/*walks description section*/
+
 #subheading {
     text-align: center;
     font-size: 250%;
@@ -153,3 +155,29 @@ footer >ul li {
     font-style: italic;
     margin-left: 10px;
 }
+
+#walk-one {
+    height: 300px;
+    padding-top: 2%;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
+#walk-paragraph-one {
+    font-size: 115%;
+    width: 33%;
+    margin-left: 15%;
+    background-color: rgba(87, 100, 38, 0.54);
+    float: left;
+    padding: 4px;
+    height: 100%;
+}
+
+#walks-picture-one>img {
+    height: 100%;
+    width: 33%;
+    margin-right: 15%;
+    float: right;
+    }
