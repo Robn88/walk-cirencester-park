@@ -143,7 +143,7 @@ footer>ul li {
     background-size: cover;
 }
 
-/*walks description section*/
+/*walks description subheading*/
 
 #subheading {
     text-align: center;
@@ -157,19 +157,22 @@ footer>ul li {
     margin-bottom: 2%;
 }
 
+/*first walk description and photo*/
+
 #walk-one>div {
     height: 300px;
+    margin-bottom: 2%;
 }
 
 li {
     padding-bottom: 10px;
 }
 
-#walk-paragraph-one {
+#walk-list-one {
     font-size: 115%;
     width: 33%;
-    margin-left: 15%;
     background-color: rgba(87, 100, 38, 0.54);
+    margin-left: 15%;
     float: left;
     height: 100%;
 }
@@ -180,3 +183,27 @@ li {
     margin-right: 15%;
     float: right;
 }
+
+/*second walk description and photo*/
+
+#walk-two>div {
+    height: 300px;
+    margin-bottom: 2%;
+    }
+
+#walks-picture-two>img {
+    height: 100%;
+    width: 33%;
+    margin-left: 15%;
+    float: left;
+}
+
+#walk-list-two {
+    font-size: 115%;
+    width: 33%;
+    background-color: rgba(87, 100, 38, 0.54);
+    margin-right: 15%;
+    float: right;
+    height: 100%;
+    margin-right: 15%;
+    }
