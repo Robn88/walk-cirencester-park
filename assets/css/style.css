@@ -154,11 +154,11 @@ footer>ul li {
 #walk-description-subheading {
     font-style: italic;
     margin-left: 10px;
+    margin-bottom: 2%;
 }
 
-#walk-one {
+#walk-one>div {
     height: 300px;
-    padding-top: 2%;
 }
 
 li {
@@ -171,7 +171,6 @@ li {
     margin-left: 15%;
     background-color: rgba(87, 100, 38, 0.54);
     float: left;
-    padding: 4px;
     height: 100%;
 }
 
@@ -180,4 +179,4 @@ li {
     width: 33%;
     margin-right: 15%;
     float: right;
-    }
+}
