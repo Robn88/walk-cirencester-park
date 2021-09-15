@@ -207,3 +207,12 @@ li {
     height: 100%;
     margin-right: 15%;
     }
+
+    /*contact page main image*/
+
+    #contact-image {
+        background: url(../images/contact-image-main.jpg) no-repeat center center;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+    }
