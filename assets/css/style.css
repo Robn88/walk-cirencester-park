@@ -7,7 +7,7 @@
     border: none;
 }
 
-p {
+p, li {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -162,14 +162,14 @@ footer>ul li {
 #walk-one>div {
     height: 300px;
     margin-bottom: 2%;
-}
+    }
 
 li {
     padding-bottom: 10px;
 }
 
 #walk-list-one {
-    font-size: 115%;
+    font-size: 105%;
     width: 33%;
     background-color: rgba(87, 100, 38, 0.54);
     margin-left: 15%;
@@ -178,6 +178,7 @@ li {
 }
 
 #walks-picture-one>img {
+    font-size: 105%;
     height: 100%;
     width: 33%;
     margin-right: 15%;
@@ -199,7 +200,6 @@ li {
 }
 
 #walk-list-two {
-    font-size: 115%;
     width: 33%;
     background-color: rgba(87, 100, 38, 0.54);
     margin-right: 15%;
