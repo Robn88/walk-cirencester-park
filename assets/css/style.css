@@ -213,6 +213,6 @@ li {
     #contact-image {
         background: url(../images/contact-image-main.jpg) no-repeat center center;
         width: 100%;
-        height: 100%;
+        height: 400px;
         background-size: cover;
     }
