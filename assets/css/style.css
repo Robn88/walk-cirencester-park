@@ -7,7 +7,8 @@
     border: none;
 }
 
-p, li {
+p,
+li {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -162,7 +163,7 @@ footer>ul li {
 #walk-one>div {
     height: 300px;
     margin-bottom: 2%;
-    }
+}
 
 li {
     padding-bottom: 10px;
@@ -175,7 +176,7 @@ li {
     margin-left: 15%;
     float: left;
     height: 100%;
-    }
+}
 
 #walks-picture-one>img {
     font-size: 105%;
@@ -190,7 +191,7 @@ li {
 #walk-two>div {
     height: 300px;
     margin-bottom: 2%;
-    }
+}
 
 #walks-picture-two>img {
     height: 100%;
@@ -206,13 +207,33 @@ li {
     float: right;
     height: 100%;
     margin-right: 15%;
-    }
+}
 
-    /*contact page main image*/
+/*contact page main image*/
 
-    #contact-image {
-        background: url(../images/contact-image-main.jpg) no-repeat center center;
-        width: 100%;
-        height: 400px;
-        background-size: cover;
-    }
+#contact-image {
+    background: url(../images/contact-image-main.jpg) no-repeat center center;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+}
+
+#contact-cover-text {
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    padding: 1%;
+    background-color: rgba(87, 100, 38, 0.54);
+    top: 200px;
+    left: 30px;
+}
+
+#contact-cover-text {
+    text-align: center;
+    font-size: 150%;
+}
+
+#contact-cover-text form {
+    text-align: left;
+}
+
