@@ -197,7 +197,7 @@ footer>ul li {
 
 /*walks description subheading*/
 
-#subheading {
+.subheading {
     text-align: center;
     font-size: 250%;
     margin: 1%;
@@ -260,6 +260,19 @@ li {
     float: right;
     height: 100%;
     margin-right: 15%;
+}
+
+/* map of the walk route*/
+
+#walk-route-container {
+    width: 60vw;
+    height: 40vw;
+    margin: auto;
+    }
+
+#walk-route {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /*contact page main image*/
