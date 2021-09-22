@@ -54,5 +54,7 @@ https://www.pexels.com/photo/a-deer-under-a-tree-2877854/
 dog walk image
 https://www.pexels.com/photo/woman-and-dog-walking-at-woods-1612847/
 
+coffee drinker image
+https://www.pexels.com/photo/woman-holding-brown-paper-cup-241558/
 
 
