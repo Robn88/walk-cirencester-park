@@ -135,17 +135,18 @@ table tr td img {
 #facilities {
     padding-right: 40px;
     width: 40vw;
-    display: inline-block;
     padding-top: 20px;
     margin-right: 4vw;
     font-size: 1.4em;
+    float: right;
 }
 
 
 #map-container {
     width: 40vw;
-    height: 40vw;
+    display: inline-block;
     padding: 20px;
+    margin-left: 4vw;
 }
 
 
@@ -155,11 +156,12 @@ table tr td img {
     max-height: 100%;
 }
 
-#facilities {
-    float: right;
-}
-
 #opening-times {
+    padding-right: 40px;
+    width: 40vw;
+    padding-top: 20px;
+    margin-right: 4vw;
+    font-size: 1.4em;
     float: right;
 }
 
