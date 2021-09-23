@@ -286,7 +286,7 @@ li {
 
 main {
     flex-grow: 1;
-  }
+}
 
 #contact-image {
     background: url(../images/contact-image-main.jpg) no-repeat center center;
@@ -333,6 +333,21 @@ input[type=submit] {
 */
 
 @media (min-width: 1024px) and (max-width: 1280px) {
+
+    #about-image-container {
+        margin-left: 4vw;
+
+    }
+
+    #facilities {
+        float: none;
+        margin-left: 4vw;
+        margin-right: 4vw;
+        width: 90%;
+        padding: 0;
+        margin-bottom: 2%;
+        
+    }
 
     #walk-one,
     #walk-two {
