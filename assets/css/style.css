@@ -90,6 +90,7 @@ nav li {
     text-align: center;
     margin-top: 20px;
     font-size: 300%;
+    clear: both;
 }
 
 table {
@@ -100,21 +101,28 @@ table {
 .picture-table {
     margin-left: auto;
     margin-right: auto;
+    float: left;
 }
 
 .table-text {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.4em;
-    height: 300px;
-    width: 300px;
+    height: auto;
+    width: 33%;
+    float: left;
+    padding: 20px;
 }
+
+
 
 #table-text-left {
     text-align: left;
+    float: left
 }
 
 #table-text-right {
     text-align: left;
+    float: right;
 }
 
 table tr td img {
@@ -248,7 +256,7 @@ li {
     background-color: rgba(87, 100, 38, 0.54);
     margin-right: 15%;
     float: right;
-    }
+}
 
 #narrow-path {
     width: 100%;
@@ -327,7 +335,9 @@ input[type=submit] {
 @media (min-width: 1024px) and (max-width: 1280px) {
 
     #about-image-container {
-        margin-left: 4vw;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
 
     }
 
@@ -340,6 +350,7 @@ input[type=submit] {
         margin-bottom: 2%;
 
     }
+
     #walk-list-one,
     #walk-list-two {
         height: auto;
@@ -361,7 +372,7 @@ input[type=submit] {
         width: auto;
     }
 
-    
+
 }
 
 /* 
@@ -371,21 +382,29 @@ input[type=submit] {
 
 @media (min-width: 768px) and (max-width: 1023px) {
 
+    .picture-table {
+        float: none;
+    }
+
     table tr td img {
-        width: 24vw;
-        height: 24vw;
+        width: 40vw;
+        height: 40vw;
         padding: 0;
     }
 
+
     .table-text {
-        width: 24vw;
-        height: 24vw;
+        width: 90%;
+        height: auto;
         font-size: 1.4em;
         margin: 0;
+        float: none;
     }
 
+
     #about-image-container {
-        margin-left: 4vw;
+        margin-left: auto;
+        margin-right: auto;
 
     }
 
