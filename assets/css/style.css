@@ -71,11 +71,11 @@ nav li {
 #cover-text {
     position: absolute;
     bottom: 0;
-    right: 30px;
+    right: 2vw;
     width: 400px;
     height: 175px;
     background-color: rgba(87, 100, 38, 0.54);
-    font-size: 200%;
+    font-size: 2em;
     text-align: center;
     color: white;
 }
@@ -343,10 +343,9 @@ input[type=submit] {
 
     #facilities {
         float: none;
-        margin-left: 4vw;
-        margin-right: 4vw;
+        
         width: 90%;
-        padding: 0;
+        padding: 20px;
         margin-bottom: 2%;
 
     }
@@ -401,19 +400,22 @@ input[type=submit] {
         float: none;
     }
 
+    #table-text-right {
+        float: none;
+    }
+
 
     #about-image-container {
         margin-left: auto;
         margin-right: auto;
+        display: block;
 
     }
 
     #facilities {
         float: none;
-        margin-left: 4vw;
-        margin-right: 4vw;
-        width: 90%;
-        padding: 0;
+                width: 90%;
+        padding: 20px;
         margin-bottom: 2%;
 
     }
@@ -438,74 +440,78 @@ input[type=submit] {
         height: auto;
         width: auto;
     }
+}
 
-    /* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
+@media (min-width: 481px) and (max-width: 767px) {
 
-    @media (min-width: 481px) and (max-width: 767px) {
-
-        h1 {
-            font-size: 5vw;
-        }
-
-        #menu {
-            font-size: 3vw;
-        }
-
-        table tr td img {
-            width: 24vw;
-            height: 24vw;
-            padding: 0;
-        }
-
-        .table-text {
-            width: 24vw;
-            height: 24vw;
-        }
-
-        #walk-one,
-        #walk-two {
-            font-size: 1.4em;
-        }
-
-        #contact-cover-text {
-            left: 0;
-        }
+    .picture-table {
+        float: none;
     }
 
-    /* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 360px to 479px
-*/
-
-    @media (min-width: 411px) and (max-width: 480px) {
-        h1 {
-            font-size: 5vw;
-        }
-
-        #menu {
-            font-size: 3vw;
-        }
-
-        table tr td img {
-            width: 24vw;
-            height: 24vw;
-            padding: 0;
-        }
-
-        .table-text {
-            width: 24vw;
-            height: 24vw;
-        }
-
-        #walk-one,
-        #walk-two {
-            font-size: 1.6vw;
-        }
-
-        #contact-cover-text {
-            left: 0;
-        }
+    table tr td img {
+        width: 40vw;
+        height: 40vw;
+        padding: 0;
     }
+
+
+    .table-text {
+        width: 90%;
+        height: auto;
+        font-size: 1.4em;
+        margin: 0;
+        float: none;
+    }
+
+    #table-text-right {
+        float: none;
+    }
+
+
+    #about-image-container {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+
+    }
+
+    #facilities {
+        float: none;
+        width: 90%;
+        padding: 20px;
+        margin-bottom: 2%;
+
+    }
+
+    #map-container {
+        width: auto;
+    }
+
+    #opening-times {
+        float: none;
+        width: auto;
+        padding: 20px;
+    }
+
+    #walk-list-one,
+    #walk-list-two {
+        height: auto;
+        font-size: 1.4em;
+        margin: 0;
+        margin-bottom: 1vh;
+        width: 100%;
+    }
+
+    #walks-picture-one,
+    #walks-picture-two {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    #walk-route-container {
+        height: auto;
+        width: auto;
+    }
+
+}
