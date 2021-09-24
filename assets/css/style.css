@@ -211,42 +211,33 @@ footer>ul li {
 
 /*first walk description and photo*/
 
-#walk-one>div {
-    height: 48vh;
-    margin-bottom: 2%;
-}
 
 li {
     padding-bottom: 10px;
 }
 
 #walk-list-one {
-    font-size: 105%;
     width: 33%;
     background-color: rgba(87, 100, 38, 0.54);
     margin-left: 15%;
     float: left;
-    height: 100%;
 }
 
-#walks-picture-one>img {
-    font-size: 105%;
-    height: 100%;
+#walks-picture-one {
     width: 33%;
     margin-right: 15%;
     float: right;
 }
 
-/*second walk description and photo*/
-
-#walk-two>div {
-    height: 300px;
-    margin-bottom: 2%;
+#two-follies {
+    width: 100%;
 }
 
-#walks-picture-two>img {
-    font-size: 105%;
-    height: 100%;
+/*second walk description and photo*/
+
+
+
+#walks-picture-two {
     width: 33%;
     margin-left: 15%;
     float: left;
@@ -254,12 +245,13 @@ li {
 
 #walk-list-two {
     width: 33%;
-    font-size: 105%;
     background-color: rgba(87, 100, 38, 0.54);
     margin-right: 15%;
     float: right;
-    height: 100%;
-    margin-right: 15%;
+    }
+
+#narrow-path {
+    width: 100%;
 }
 
 /* map of the walk route*/
@@ -348,12 +340,28 @@ input[type=submit] {
         margin-bottom: 2%;
 
     }
-
-    #walk-one,
-    #walk-two {
-        font-size: 1.3vw;
+    #walk-list-one,
+    #walk-list-two {
+        height: auto;
+        font-size: 1.4em;
+        margin: 0;
+        margin-bottom: 1vh;
+        width: 100%;
     }
 
+    #walks-picture-one,
+    #walks-picture-two {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    #walk-route-container {
+        height: auto;
+        width: auto;
+    }
+
+    
 }
 
 /* 
@@ -391,88 +399,94 @@ input[type=submit] {
 
     }
 
-   #walk-list-one {
-       height: auto;
-       font-size: 1.4em;
-       margin: 0;
-       width: 100%;
-   }
+    #walk-list-one,
+    #walk-list-two {
+        height: auto;
+        font-size: 1.4em;
+        margin: 0;
+        margin-bottom: 1vh;
+        width: 100%;
+    }
 
-   #walks-picture-one {
-       width: 100%;
-       height: auto;
-   }
+    #walks-picture-one,
+    #walks-picture-two {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
 
-}
+    #walk-route-container {
+        height: auto;
+        width: auto;
+    }
 
-
-/* 
+    /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
+    @media (min-width: 481px) and (max-width: 767px) {
 
-    h1 {
-        font-size: 5vw;
+        h1 {
+            font-size: 5vw;
+        }
+
+        #menu {
+            font-size: 3vw;
+        }
+
+        table tr td img {
+            width: 24vw;
+            height: 24vw;
+            padding: 0;
+        }
+
+        .table-text {
+            width: 24vw;
+            height: 24vw;
+        }
+
+        #walk-one,
+        #walk-two {
+            font-size: 1.4em;
+        }
+
+        #contact-cover-text {
+            left: 0;
+        }
     }
 
-    #menu {
-        font-size: 3vw;
-    }
-
-    table tr td img {
-        width: 24vw;
-        height: 24vw;
-        padding: 0;
-    }
-
-    .table-text {
-        width: 24vw;
-        height: 24vw;
-    }
-
-    #walk-one,
-    #walk-two {
-        font-size: 1.4em;
-    }
-
-    #contact-cover-text {
-        left: 0;
-    }
-}
-
-/* 
+    /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 360px to 479px
 */
 
-@media (min-width: 411px) and (max-width: 480px) {
-    h1 {
-        font-size: 5vw;
-    }
+    @media (min-width: 411px) and (max-width: 480px) {
+        h1 {
+            font-size: 5vw;
+        }
 
-    #menu {
-        font-size: 3vw;
-    }
+        #menu {
+            font-size: 3vw;
+        }
 
-    table tr td img {
-        width: 24vw;
-        height: 24vw;
-        padding: 0;
-    }
+        table tr td img {
+            width: 24vw;
+            height: 24vw;
+            padding: 0;
+        }
 
-    .table-text {
-        width: 24vw;
-        height: 24vw;
-    }
+        .table-text {
+            width: 24vw;
+            height: 24vw;
+        }
 
-    #walk-one,
-    #walk-two {
-        font-size: 1.6vw;
-    }
+        #walk-one,
+        #walk-two {
+            font-size: 1.6vw;
+        }
 
-    #contact-cover-text {
-        left: 0;
+        #contact-cover-text {
+            left: 0;
+        }
     }
-}
