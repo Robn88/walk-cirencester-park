@@ -22,7 +22,7 @@ body {
     background-color: rgb(251, 250, 242);
 }
 
-/*style for header and nav bar*/
+/* style for header and nav bar */
 
 h1 {
     text-transform: uppercase;
@@ -59,7 +59,7 @@ nav li {
     padding-top: 1%;
 }
 
-/*main image and nested text box*/
+/* main image and nested text box */
 
 #main-image {
     background: url(../images/main-image.jpg) no-repeat center center;
@@ -81,7 +81,7 @@ nav li {
 }
 
 
-/*picture tables and accompanying text */
+/* picture tables and accompanying text */
 
 .index-subheading {
     text-transform: uppercase;
@@ -195,7 +195,7 @@ footer>ul li {
     color: black;
 }
 
-/*walks page main image*/
+/* walks page main image */
 
 #walks-main-image {
     background: url(../images/walks-main-image.jpg) no-repeat center center;
@@ -204,7 +204,7 @@ footer>ul li {
     background-size: cover;
 }
 
-/*walks description subheading*/
+/* walks description subheading */
 
 .subheading {
     text-align: center;
@@ -218,7 +218,7 @@ footer>ul li {
     margin-bottom: 2%;
 }
 
-/*first walk description and photo*/
+/* first walk description and photo */
 
 
 li {
@@ -242,7 +242,7 @@ li {
     width: 100%;
 }
 
-/*second walk description and photo*/
+/* second walk description and photo */
 
 
 
@@ -263,7 +263,7 @@ li {
     width: 100%;
 }
 
-/* map of the walk route*/
+/* map of the walk route */
 
 #walk-route-container {
     width: 60vw;
@@ -326,7 +326,7 @@ input[type=submit] {
     padding: 5px;
 }
 
-/* media queries*/
+/* media queries */
 
 /* 
   ##Device = Laptops, Desktops
