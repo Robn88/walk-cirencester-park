@@ -1,7 +1,37 @@
 # Walk Cirencester Park
 
-This website is designed for people who may wish to discover more about Cirencester Park, specifically with regards to walking in the park. It attempts to sell the park as a place to visit through the use of photos, and by vaunting its natural beauty. 
+This website is designed for people who may wish to discover more about Cirencester Park, specifically with regards to walking in the park. It attempts to sell the park as a place to visit through the use of photos, and by vaunting its natural beauty.
 
+## __UX__
+* The design of the website has been imagined with the experience of the user first and foremost under consideration. A minimalist approach has been used, with clear use of headings to guide the user towards the appropriate content. There is a contrast between photos that occupy a lot of space, and smaller ones that are typically accompanied by text.
+
+### __Colour Scheme__
+* There are two main colours present in the website; a white (rgb(251, 250, 242);) which is used as the background for all pages, and a green (rgba(87, 100, 38, 0.54)), which used in the footers and text boxes. The green works well with many of the photos, which also have earthy, green colours, and the white offers contrast, without being too visually distracting.
+
+### __Typography__
+* The two main fonts used are [Urbanist](https://fonts.google.com/specimen/Urbanist) and [Montserrat](https://fonts.google.com/specimen/Montserrat). Urbanist is primarily used for the H1 elements, and Montserrat for extended areas of text. These fonts were chosen as they are easy to read, and their minimal look fits in well with the rest of the website.
+
+### __Wireframes__
+
+Landing page wireframe one:
+
+![Landing page wireframe one](documentation/wireframes/landing-page-wireframe-one.png)
+
+Landing page wireframe two:
+
+![Landing page wireframe two](documentation/wireframes/landing-page-wireframe-two.png)
+
+Walks page wireframe one:
+
+![Walks page wireframe one](documentation/wireframes/walks-page-wireframe-one.png)
+
+Walks page wireframe two:
+
+![Walks page wireframe two](documentation/wireframes/walks-page-wireframe-two.png)
+
+Contact page wireframe:
+
+![Contact page wireframe](documentation/wireframes/contact-page-wireframe.png)
 ## __Features__
 
 ### __Existing Features__
@@ -63,29 +93,56 @@ __Gallery__
 __Embedded, Interactive Google Maps__
   * It could be useful to have Google Maps embedded below the walk description, with interactivity, for example by placing pins on the map and labelling them according to the stage of the walk they correspond to, as well as previewing a picture that matches the stage of the walk.
 
-### __Testing__
+  ## __Technologies Used__
+  * HTML was used to code the structure of the website, and CSS was used to style it. 
+  * Balsamiq was used to create wireframes, to give a rough idea of how the website might look.
+  * TinyPNG was an essential tool to reduce the size of photos, while at the same time maintaining resolution.
+  *  The repository is hosted on GitHub, which allowed for version control.
+  * Gitpod was the workspace used to code, and build the content of the website, which would then be committed to GitHub. 
+
+## __Testing__
+
+
+
+
+### Browser Compatibility
+### Code Validation
 
 The code has passed through the code validators and no errors were found, as evidenced below:
 
 ![image of confirmation of CSS code validation](documentation/readme/css-code-validation.png)
 
 ![image of confirmation of HTML code validation](documentation/readme/html-code-validator.png)
+### Responsiveness
+### Unfixed Bugs
+## Deployment
+### Local Deployment
+## Credits
+### Content
+### Media
+### Acknowledgements
 
-### Credits
 
-Main image on index.html :
-https://www.countrylife.co.uk/out-and-about/cirencester-park-still-full-of-the-amiable-simplicity-of-unadorned-nature-200-years-after-its-creation-216389
 
-deer image
-https://www.pexels.com/photo/a-deer-under-a-tree-2877854/
 
-dog walk image
-https://www.pexels.com/photo/woman-and-dog-walking-at-woods-1612847/
 
-coffee drinker image
-https://www.pexels.com/photo/woman-holding-brown-paper-cup-241558/
 
-tree image
-https://images.pexels.com/photos/2861751/pexels-photo-2861751.jpeg
+
+
+[Main image on landing page](https://www.countrylife.co.uk/out-and-about/cirencester-park-still-full-of-the-amiable-simplicity-of-unadorned-nature-200-years-after-its-creation-216389
+)
+
+
+[Image of a deer](https://www.pexels.com/photo/a-deer-under-a-tree-2877854/)
+
+
+[Image of a woman walking a dog](https://www.pexels.com/photo/woman-and-dog-walking-at-woods-1612847/)
+
+
+[Image of a woman drinking a cup of coffee](https://www.pexels.com/photo/woman-holding-brown-paper-cup-241558/)
+
+
+[Image of a tree](https://images.pexels.com/photos/2861751/pexels-photo-2861751.jpeg)
+
 
 

@@ -16,6 +16,7 @@ form {
 body {
     font-family: 'Urbanist', sans-serif;
     font-weight: 300;
+    overflow-x: hidden;
 }
 
 .background-color {
@@ -141,6 +142,7 @@ table tr td img {
 }
 
 #facilities {
+    font-family: 'Montserrat', sans-serif;
     padding-right: 40px;
     width: 40vw;
     padding-top: 20px;
@@ -165,6 +167,7 @@ table tr td img {
 }
 
 #opening-times {
+    font-family: 'Montserrat', sans-serif;
     padding-right: 40px;
     width: 40vw;
     padding-top: 20px;
@@ -442,13 +445,14 @@ input[type=submit] {
         width: auto;
     }
 }
+
 /* 
   ##Device = Low Resolution Tablets, Mobiles (Landscape)
   ##Screen = B/w 481px to 767px
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-        .picture-table {
+    .picture-table {
         float: none;
     }
 
@@ -528,9 +532,10 @@ input[type=submit] {
 @media (min-width: 411px) and (max-width: 480px) {
     #cover-text {
         width: 60vw;
-        height:auto;
+        height: auto;
         font-size: 5vw;
     }
+
     .picture-table {
         float: none;
     }
@@ -603,9 +608,9 @@ input[type=submit] {
         width: auto;
     }
 
-    #contact-cover-text{
-    top: 50vh;
-}
+    #contact-cover-text {
+        top: 50vh;
+    }
 }
 
 @media only screen and (max-width: 410px) {
@@ -616,9 +621,10 @@ input[type=submit] {
 
     #cover-text {
         width: 60vw;
-        height:auto;
+        height: auto;
         font-size: 5vw;
     }
+
     .picture-table {
         float: none;
     }
@@ -691,11 +697,12 @@ input[type=submit] {
         width: auto;
     }
 
-    #contact-cover-text{
-    top: 50vh;
-    left: 0;
-}
-.social-network-links {
-    font-size: 75%;
-}
+    #contact-cover-text {
+        top: 50vh;
+        left: 0;
+    }
+
+    .social-network-links {
+        font-size: 75%;
+    }
 }
