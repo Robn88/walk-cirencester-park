@@ -305,9 +305,7 @@ main {
     height: 300px;
     padding: 10px;
     background-color: rgba(87, 100, 38, 0.54);
-    top: 150px;
-    left: 30px;
-}
+    }
 
 #contact-cover-text {
     text-align: center;
@@ -608,9 +606,7 @@ input[type=submit] {
         width: auto;
     }
 
-    #contact-cover-text {
-        top: 50vh;
-    }
+
 }
 
 @media only screen and (max-width: 410px) {
@@ -697,10 +693,7 @@ input[type=submit] {
         width: auto;
     }
 
-    #contact-cover-text {
-        top: 50vh;
-        left: 0;
-    }
+
 
     .social-network-links {
         font-size: 75%;
