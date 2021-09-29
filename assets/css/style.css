@@ -72,7 +72,7 @@ nav li {
 #cover-text {
     position: absolute;
     bottom: 0;
-    right: 2vw;
+    right: 0;
     width: 400px;
     height: 175px;
     background-color: rgba(87, 100, 38, 0.54);
@@ -305,7 +305,7 @@ main {
     height: 300px;
     padding: 10px;
     background-color: rgba(87, 100, 38, 0.54);
-    }
+}
 
 #contact-cover-text {
     text-align: center;
@@ -450,6 +450,10 @@ input[type=submit] {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
+    #cover-text {
+        bottom: auto;
+    }
+    
     .picture-table {
         float: none;
     }
@@ -528,11 +532,6 @@ input[type=submit] {
 */
 
 @media (min-width: 411px) and (max-width: 480px) {
-    #cover-text {
-        width: 60vw;
-        height: auto;
-        font-size: 5vw;
-    }
 
     .picture-table {
         float: none;
@@ -616,9 +615,8 @@ input[type=submit] {
     }
 
     #cover-text {
-        width: 60vw;
+        width: auto;
         height: auto;
-        font-size: 5vw;
     }
 
     .picture-table {
