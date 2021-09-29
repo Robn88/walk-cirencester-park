@@ -2,6 +2,8 @@
 
 This website is designed for people who may wish to discover more about Cirencester Park, specifically with regards to walking in the park. It attempts to sell the park as a place to visit through the use of photos, and by vaunting its natural beauty.
 
+![Image of the website across various devices](documentation/readme/responsive-design.png)
+
 ## __UX__
 * The design of the website has been imagined with the experience of the user first and foremost under consideration. A minimalist approach has been used, with clear use of headings to guide the user towards the appropriate content. There is a contrast between photos that occupy a lot of space, and smaller ones that are typically accompanied by text.
 
@@ -120,9 +122,23 @@ Microsoft Edge, tablet view:
 
 The code has passed through the code validators and no errors were found, as evidenced below:
 
+CSS
+
 ![image of confirmation of CSS code validation](documentation/readme/css-code-validation.png)
 
-![image of confirmation of HTML code validation](documentation/readme/html-code-validator.png)
+index.html:
+
+![image of confirmation of HTML code validation for index.html](documentation/readme/html-code-validator.png)
+
+walks.html:
+
+![image of confirmation of HTML code validation for walks.html](documentation/readme/walks-code-validation.png)
+
+contact.html:
+
+![image of confirmation of HTML code validation for contact.html](documentation/readme/contact-code-validation.png)
+
+
 ### Responsiveness
 
 * The website has been tested for responsiveness on a variety of devices, as evidenced below:
@@ -175,6 +191,12 @@ Alternatively, if you are using Gitpod, you can simply click on the green Gitpod
 
 ### Acknowledgements
 
+* I would like to acknowledge the help provided to me by various people and websites, who have rendered the task of making this website easier, and in some cases, possible. In no particular order, I would like to thank:
+   * w3schools.com, whose tutorials on HTML and CSS were a frequent reference for all matter of questions and doubts;
+   * stackoverflow.com, whose forums provided me with many helpful answers to problems I was experiencing when writing my code;
+   * The Slack community of Code Institute, a consisent source of warmth and encouragement, especially when I felt I was hitting my head against a wall;
+   * My mentor Tim, whose guidance was always enlightening, criticism always firm but fair, and whose enthusiasm gave me much-needed self-belief;
+  * Finally, to all of my friends and family who spent some of their precious time viewing the site on their various devices, and giving me feedback on what wasn't working.
 
 
 
