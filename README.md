@@ -102,10 +102,20 @@ __Embedded, Interactive Google Maps__
 
 ## __Testing__
 
-
-
-
 ### Browser Compatibility
+* This site has been tested on three browsers for compatibility, as evidenced below:
+
+Google Chrome, laptop view:
+
+![Screenshot of website on Google Chrome](documentation/readme/laptop-view-chrome.png)
+
+Firefox, mobile view:
+
+![Screenshot of mobile view on Firefox](documentation/readme/mobile-view-firefox.png)
+
+Microsoft Edge, tablet view:
+
+![Screenshot of tablet view on Microsoft Edge](documentation/readme/tablet-view-edge.png)
 ### Code Validation
 
 The code has passed through the code validators and no errors were found, as evidenced below:
@@ -114,24 +124,41 @@ The code has passed through the code validators and no errors were found, as evi
 
 ![image of confirmation of HTML code validation](documentation/readme/html-code-validator.png)
 ### Responsiveness
+
+* The website has been tested for responsiveness on a variety of devices, as evidenced below:
+
+![Image of different website pages across multiple devices](documentation/readme/responsive-design.png)
+
 ### Unfixed Bugs
+
+* To the best of my knowledge, no bugs exist in the website in its current state.
+
 ## Deployment
+
+This project has been deployed to GitHub Pages.
+From the repository, I went to the "Settings" tab and selected "Pages" from the sub-menu.
+Once there, I selected the "main" branch from the dropdown, and then clicked the Save button.
+
+The deployed site can be found [here](https://robn88.github.io/walk-cirencester-park).
+
 ### Local Deployment
+
+If you would like to make a clone of this repository, you can type the following command in your IDE terminal:
+
+- `git clone https://github.com/Robn88/walk-cirencester-park.git`
+
+Alternatively, if you are using Gitpod, you can simply click on the green Gitpod button at the top of the repository, and this will create a new workspace in your Gitpod account. [This link](https://gitpod.io/#https://github.com/Robn88/walk-cirencester-park) will do the same thing for you if you do not see the green Gitpod button.
+
 ## Credits
+
 ### Content
+* The nav section of the website was inspired, and partly based on, that of the Love-running respository, a link to which may be found [here](https://github.com/Robn88/Love-running).
 ### Media
-### Acknowledgements
-
-
-
-
-
-
-
-
+* The main image was taken from this site:
 [Main image on landing page](https://www.countrylife.co.uk/out-and-about/cirencester-park-still-full-of-the-amiable-simplicity-of-unadorned-nature-200-years-after-its-creation-216389
 )
 
+* The following images were taken from the open source site Pexels, and can be found by following the links below:
 
 [Image of a deer](https://www.pexels.com/photo/a-deer-under-a-tree-2877854/)
 
@@ -143,6 +170,19 @@ The code has passed through the code validators and no errors were found, as evi
 
 
 [Image of a tree](https://images.pexels.com/photos/2861751/pexels-photo-2861751.jpeg)
+
+* All other images are property of the author of this website.
+
+### Acknowledgements
+
+
+
+
+
+
+
+
+
 
 
 
