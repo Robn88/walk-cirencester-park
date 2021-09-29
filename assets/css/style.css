@@ -71,7 +71,7 @@ nav li {
 
 #cover-text {
     position: absolute;
-    bottom: 0;
+    bottom: auto;
     right: 0;
     width: 400px;
     height: 175px;
@@ -450,10 +450,7 @@ input[type=submit] {
 */
 
 @media (min-width: 481px) and (max-width: 767px) {
-    #cover-text {
-        bottom: auto;
-    }
-    
+   
     .picture-table {
         float: none;
     }
@@ -609,7 +606,7 @@ input[type=submit] {
 }
 
 @media only screen and (max-width: 410px) {
-
+   
     h1 {
         font-size: 2em;
     }
